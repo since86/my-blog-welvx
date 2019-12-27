@@ -16,6 +16,8 @@ $(function () {
         syncScrolling: "single",
         path: "/admin/plugins/editormd/lib/",
         toolbarModes: 'full',
+        editorTheme : "pastel-on-dark",
+        previewTheme : "dark",
         /**图片上传配置*/
         imageUpload: true,
         imageFormats: ["jpg", "jpeg", "gif", "png", "bmp", "webp"], //图片上传格式

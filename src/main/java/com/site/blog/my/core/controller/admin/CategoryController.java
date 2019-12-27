@@ -60,7 +60,7 @@ public class CategoryController {
         if (categoryService.saveCategory(categoryName, categoryIcon)) {
             return ResultGenerator.genSuccessResult();
         } else {
-            return ResultGenerator.genFailResult("分类名称重复");
+            return ResultGenerator.genFailResult("分类名称重复！");
         }
     }
 
